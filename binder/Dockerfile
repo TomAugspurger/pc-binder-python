@@ -1,1 +1,1 @@
-FROM mcr.microsoft.com/planetary-computer/gpu-pytorch:2021.07.13.0
+FROM mcr.microsoft.com/planetary-computer/python:2021.07.08.0
