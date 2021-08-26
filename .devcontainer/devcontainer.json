@@ -26,7 +26,7 @@
 	// "postCreateCommand": "pip3 install --user -r requirements.txt",
 
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "vscode",
+	"remoteUser": "jovyan",
     "containerEnv": {
         "DASK_GATEWAY_ADDRESS": "https://pccompute.westeurope.cloudapp.azure.com/compute/services/dask-gateway",
         "DASK_GATEWAY__PROXY_ADDRESS": "gateway://pccompute-dask.westeurope.cloudapp.azure.com:80",
