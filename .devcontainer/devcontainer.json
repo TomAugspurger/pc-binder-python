@@ -29,6 +29,7 @@
 	"remoteUser": "jovyan",
     "containerEnv": {
         "DASK_GATEWAY__ADDRESS": "https://pccompute.westeurope.cloudapp.azure.com/compute/services/dask-gateway",
+        "DASK_GATEWAY__AUTH__TYPE": "jupyterhub",
         "DASK_GATEWAY__PROXY_ADDRESS": "gateway://pccompute-dask.westeurope.cloudapp.azure.com:80",
         "DASK_GATEWAY__CLUSTER__OPTIONS__IMAGE": "pcccr.azurecr.io/public/planetary-computer/python:latest",
     }
