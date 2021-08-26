@@ -1,0 +1,11 @@
+{
+	"name": "Planetary Computer (Python)",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"settings": {
+		"python.pythonPath": "/srv/conda/envs/notebook/bin/python",
+		"python.linting.enabled": true,
+		"python.linting.pylintEnabled": true,
+	},
+}
